@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: "Plus Jakarta Sans", "Inter", sans-serif;
+
+  /* Official Brand Colors from the Brief */
+  --color-brand-blue: #0449ED;
+  --color-brand-yellow: #F8D00D;
+  --color-brand-black: #0B0C0E;
+  --color-brand-white: #FFFFFF;
+  --color-brand-light-gray: #F4F5F7;
+  --color-brand-slate: #5B6472;
+}
+
+/* Custom industrial aesthetic shadows and outlines */
+.construction-accent-line {
+  height: 4px;
+  background: linear-gradient(90deg, var(--color-brand-blue) 0%, var(--color-brand-yellow) 100%);
+}
+
+.bold-card-border {
+  border: 2px solid var(--color-brand-black);
+}
+
+.heavy-shadow {
+  box-shadow: 4px 4px 0px 0px var(--color-brand-black);
+}
+
+.heavy-shadow-hover:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px 0px var(--color-brand-black);
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+  background-color: var(--color-brand-white);
+  color: var(--color-brand-black);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-brand-light-gray);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-brand-slate);
+  border-radius: 5px;
+  border: 2px solid var(--color-brand-light-gray);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-brand-black);
+}
