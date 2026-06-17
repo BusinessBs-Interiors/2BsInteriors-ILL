@@ -119,8 +119,7 @@ export default function Services() {
                 </div>
 
                 {/* Sub-card brand numbering style */}
-                <div className="pt-5 border-t border-brand-light-gray flex justify-between items-center text-[10px] font-mono font-black text-brand-blue relative z-10">
-                  <span className="tracking-widest">CAPABILITY CODE: 0{index + 1}</span>
+                <div className="pt-5 border-t border-brand-light-gray flex justify-end items-center text-[10px] font-mono font-black text-brand-blue relative z-10">
                   <span className="text-brand-black flex items-center gap-1 bg-brand-light-gray px-2 py-1 rounded">
                     <span className="w-1.5 h-1.5 rounded-full bg-brand-yellow animate-pulse"></span>
                     UNION CORE

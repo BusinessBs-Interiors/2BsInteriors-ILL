@@ -47,7 +47,7 @@ export default function Footer() {
               </p>
               <p className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-brand-blue shrink-0" />
-                <span>Email: <a href="mailto:bidding@2BSInteriors.net" className="hover:text-brand-yellow font-bold">bidding@2BSInteriors.net</a></span>
+                <span>Email: <a href="mailto:business@2bsinterior.com" className="hover:text-brand-yellow font-bold">business@2bsinterior.com</a></span>
               </p>
             </div>
           </div>

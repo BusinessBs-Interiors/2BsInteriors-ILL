@@ -138,7 +138,7 @@ export default function Hero() {
             {/* Aesthetic Construction Indicator Ribbons */}
             <motion.div className="flex items-center gap-2 text-brand-blue" variants={itemVariants}>
               <Compass className="w-5 h-5 animate-spin-slow text-brand-blue" />
-              <span className="font-mono text-xs tracking-[0.2em] font-black uppercase">CHICAGO UNION GC VENDOR</span>
+              <span className="font-mono text-xs tracking-[0.2em] font-black uppercase">CHICAGO, IL</span>
               <div className="flex-1 h-[2px] bg-gradient-to-r from-brand-blue to-transparent"></div>
             </motion.div>
 

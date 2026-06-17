@@ -40,7 +40,7 @@ export default function ContactCard() {
     
     // We launch it after a short delay so they see the stateful confirmation first
     setTimeout(() => {
-      window.location.href = `mailto:bidding@2BSInteriors.net?subject=${mailtoSubject}&body=${mailtoBody}`;
+      window.location.href = `mailto:business@2bsinterior.com?subject=${mailtoSubject}&body=${mailtoBody}`;
     }, 1500);
   };
 
@@ -149,8 +149,8 @@ export default function ContactCard() {
                 </div>
                 <div className="space-y-1">
                   <span className="block text-[10px] text-brand-slate font-mono uppercase font-black tracking-wider">Estimating Email</span>
-                  <a href="mailto:bidding@2BSInteriors.net" className="text-base font-black text-brand-black hover:text-brand-blue transition-colors underline decoration-brand-yellow decoration-3">
-                    bidding@2BSInteriors.net
+                  <a href="mailto:business@2bsinterior.com" className="text-base font-black text-brand-black hover:text-brand-blue transition-colors underline decoration-brand-yellow decoration-3">
+                    business@2bsinterior.com
                   </a>
                 </div>
               </motion.div>
@@ -276,7 +276,7 @@ export default function ContactCard() {
                     Thank you, {formData.name}. We have logged your request.
                   </p>
                   <p className="text-xs text-brand-slate leading-relaxed font-semibold">
-                    Our system has drafted a prefilled bid invitation. If your local email client didn't launch automatically, please send your project specs and architectural sheets directly to <a href="mailto:bidding@2BSInteriors.net" className="font-black underline text-brand-blue">bidding@2BSInteriors.net</a>.
+                    Our system has drafted a prefilled bid invitation. If your local email client didn't launch automatically, please send your project specs and architectural sheets directly to <a href="mailto:business@2bsinterior.com" className="font-black underline text-brand-blue">business@2bsinterior.com</a>.
                   </p>
                 </div>
 
